@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import CustomersList from './customers-list';
-//import { useCustomersContext } from '../context/customers-context';
 
 function Customers() {
 
@@ -10,12 +9,12 @@ function Customers() {
     });
 
     return (
-        <>
+        <div className='customers-container'>
             <div>
                 <p>Olá, {username}</p>
             </div>
             <CustomersList/>
-        </>
+        </div>
     )
 }
 

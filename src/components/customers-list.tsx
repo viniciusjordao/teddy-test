@@ -28,8 +28,6 @@ function CustomersList() {
         fetchPosts();
     }, [currentPage, clientsPerPage]);
 
-    console.log(data, currentPage, "lelele")
-
     return (
         <>
             <div className='clients-per-page'>

@@ -11,7 +11,7 @@ function Home() {
   }, [username]); 
 
   return (
-    <>
+    <div className='welcome-container'>
       <div>
        <p className='welcome'>Olá, seja bem-vindo!</p>
       </div>
@@ -25,7 +25,7 @@ function Home() {
         </input>
         <Link to="/customers" className='button welcome-button'>Entrar</Link>
       </div>
-    </>
+    </div>
   )
 }
 

@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./home"
-import Customers from "./pages/customers";
+import Customers from "./components/customers";
 
 export default function App() {
   return (
@@ -12,6 +12,3 @@ export default function App() {
     </BrowserRouter>
   );
 }
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(<App />);

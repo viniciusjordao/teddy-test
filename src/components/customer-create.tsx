@@ -17,9 +17,6 @@ const CustomerCreate = () => {
     const [isCreated, setIsCreated] = useState(false)
     const [isRequired, setIsRequisred] = useState(false)
 
-
-
-
     const createCustomer = () => {
         if (name && salary && companyValuation) {
             fetch('https://boasorte.teddybackoffice.com.br/users', {

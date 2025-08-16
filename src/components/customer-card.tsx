@@ -1,4 +1,3 @@
-// import { useEffect, useState } from 'react'
 import './customers.css'
 
  interface Customer {

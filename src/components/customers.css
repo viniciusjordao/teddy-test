@@ -1,6 +1,8 @@
-#root {
+.customers-container {
   max-width: 1200px;
   padding: 0;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* CUSTOMERS LIST */
@@ -11,6 +13,7 @@
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  justify-content: center;
 }
 
 /* CUSTOMERS CARD */
@@ -112,9 +115,9 @@
   position: fixed;
   z-index: 999;
   top: 20%;
-  left: 50%;
-  width: 400px;
-  margin-left: -200px;
+  left: 45%;
+  width: 300px;
+  margin-left: -150px;
   border-radius: 4px;
   background: #FFF;
   padding: 20px;
@@ -156,4 +159,25 @@
   margin-top: 5px;
   padding: 12px;
   font-size: 16px;
+}
+
+@media (min-width: 1024px) {
+  .wrap{
+    justify-content: inherit;
+  }
+
+  .modal-content {
+  position: fixed;
+  z-index: 999;
+  top: 20%;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+  border-radius: 4px;
+  background: #FFF;
+  padding: 20px;
+  color: black;
+
+}
+
 }
