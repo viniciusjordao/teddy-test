@@ -1,0 +1,159 @@
+#root {
+  max-width: 1200px;
+  padding: 0;
+}
+
+/* CUSTOMERS LIST */
+
+.wrap {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+/* CUSTOMERS CARD */
+
+.customer-card {
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin: 0 7px 17px 7px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.10);
+}
+
+.customer-card .name {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 15px 0 10px 0;
+}
+
+.customer-card p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.actions {
+  width: 285px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions img {
+  width: 20px;
+  height: 20px;
+  padding: 16px;
+}
+
+/* CUSTOMERS PAGINATION */
+
+.pagination {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.page-link {
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.page-item.active .page-link {
+  background: #EC6724;
+  color: #FFFFFF;
+}
+
+/* CUSTOMERS PER PAGE */
+
+.clients-per-page {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.clients-per-page p {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+/* CREATE CUSTOMERS */
+
+.create-button{
+  width: 100%;
+  padding: 12px;
+  color: #EC6724;
+  border-radius: 4px;
+  border: 1px solid #EC6724;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  z-index: 888;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.30);
+}
+
+.modal-content {
+  position: fixed;
+  z-index: 999;
+  top: 20%;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+  border-radius: 4px;
+  background: #FFF;
+  padding: 20px;
+  color: black;
+
+}
+
+.modal-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-title p {
+  margin: 0;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.modal-title img {
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form input {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px 14px;
+}
+
+.modal-form .button{
+  margin-top: 5px;
+  padding: 12px;
+  font-size: 16px;
+}

@@ -1,0 +1,24 @@
+#root {
+  max-width: 521px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.welcome{
+  padding: 0.6em;
+  margin: 0;
+  color: #000000;
+  font-size: 36px;
+  text-wrap-style: balance;
+}
+
+.welcome-wrap{
+  display: flex;
+  flex-direction: column;
+}
+.welcome-button, .welcome-input{
+  font-size: 24px;
+  padding: 0.6em 0.6em;
+  margin: 0.3em;
+}
