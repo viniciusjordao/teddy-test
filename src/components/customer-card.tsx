@@ -30,9 +30,9 @@ function CustomerCard(props: Customer) {
                 <p>Salário: {salary}</p>
                 <p>Empresa: {companyValuation}</p>
                 <div className='actions'>
-                    <img src='src/assets/icons/plus-icon.png'/>
-                    <img src='src/assets/icons/edit-icon.png'/>
-                    <img src='src/assets/icons/trash-icon.png'/>
+                    <img src='plus-icon.png'/>
+                    <img src='edit-icon.png'/>
+                    <img src='trash-icon.png'/>
                 </div>
             </li>
         </>
