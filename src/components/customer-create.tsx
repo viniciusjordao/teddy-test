@@ -57,7 +57,7 @@ const CustomerCreate = () => {
                                     setCompanyValuation('')
 
                                 }}
-                                src='src/assets/icons/plus-icon.png'
+                                src='plus-icon.png'
                             />
                         </div>
                         {isCreated ?
